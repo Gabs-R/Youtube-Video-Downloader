@@ -21,8 +21,8 @@ def open_file_dialog():
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
-
-    video_url = "https://www.youtube.com/watch?v=R2-Sn68xmZQ"
+#Insert URL in here
+    video_url = ""
     save_dir = open_file_dialog()
 
     if save_dir:
